@@ -1,6 +1,6 @@
-import './styles/app'; //  base style .less;
+import './styles/app'; //  base style app.less;
 import Vue from 'vue';
-import App from './App';   //  base component .vue;
+import App from './App';   //  base component App.vue;
 
 //  AB: create main vue-object;
 new Vue({
@@ -8,3 +8,4 @@ new Vue({
     template: '<App/>',
     components: { App }
 });
+

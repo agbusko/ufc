@@ -17,7 +17,7 @@ module.exports = merge(common, {
     devServer: {
         contentBase: path.resolve(__dirname, './src'),
         host: 'localhost',
-        port: 7777,
+        port: 7775,
         hot: true,  // чтобы сервер работал в режиме горячей замены;
         open: true, // авто-открытие в браузере;
         overlay: true,  // для удобства отображения ошибок;

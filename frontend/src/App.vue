@@ -1,12 +1,19 @@
 <template>
 	<div id="app">
-		<h1>Hello! [App.vue]</h1>
+		<app-header></app-header>
 	</div>
 </template>
 <script>
+	import AppHeader from './components/Header';
     export default {
-        name: "App"
+        name: "App",
+		components: {
+			AppHeader
+		}
     }
 </script>
-<style scoped>
+<style>
+
 </style>
+
+
