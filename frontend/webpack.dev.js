@@ -33,7 +33,7 @@ module.exports = merge(common, {
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: '../index.html'
+            template: './index.html'
         }),
         htmlHotPlugin
     ],

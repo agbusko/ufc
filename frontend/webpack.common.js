@@ -6,11 +6,11 @@ const path = require('path'),    // подключаемый модуль node.j
 
 // #2. Подключение внутренних модулей;
 module.exports = {
-    context: path.resolve(__dirname, './src/js'), // корень точки входа по умолчанию;
+    context: path.resolve(__dirname, './src/'), // корень точки входа по умолчанию;
 
     // точки входа, какой модуль собирать;
     entry: {
-        app: './index', // главный js;
+        app: './main', // главный js;
     },
 
     // точки выхода;
